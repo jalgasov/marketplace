@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fortest', # Added the fortest app here    
 ]
 
 MIDDLEWARE = [
