@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+
+# Django базы данных
+*.sqlite3
+
+# Скомпилированные файлы
+*.pyc
+*.pyo
+*.pyd
+
+# Статика
+staticfiles/
+media/
+
+# Конфигурации окружения
+.env
+*.env
+
+# IDE и системные файлы
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
