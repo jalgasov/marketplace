@@ -26,8 +26,11 @@ SECRET_KEY = 'django-insecure-fz7xq%)auw28l4w@dx-ozf-+1(kp7*@$!hnwl$^je6(eow*ekr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
-
+ALLOWED_HOSTS = ['*', 'localhost', 'https://marketplace-production-1470.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://marketplace-production-1470.up.railway.app',
+    'https://aisol.kz',
+]
 
 # Application definition
 
