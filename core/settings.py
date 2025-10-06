@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ['*', 'localhost', 'https://marketplace-production-1470.up.railw
 CSRF_TRUSTED_ORIGINS = [
     'https://marketplace-production-1470.up.railway.app',
     'https://aisol.kz',
+    'http://127.0.0.1:8000',
 ]
 
 # Application definition
